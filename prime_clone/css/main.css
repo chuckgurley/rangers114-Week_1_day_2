@@ -1,0 +1,122 @@
+*{
+   margin: 0%; 
+   padding: 0%;
+   font-family: Arial, Helvetica, sans-serif;
+   
+}
+.logo {
+   width: 103px;
+   height: 31px;
+   margin-top: 15px;
+
+}
+
+
+
+.main {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+
+
+
+.box {
+   width: 296px;
+   height: 240px;
+   padding: 20px 26px;
+   display: flex;
+   justify-content: space-around;
+   flex-direction: column;
+   border: 1px lightgrey;
+   border-radius: 4px;
+   margin: 20px 25px auto;
+
+}
+
+.box h1 {
+
+   font-weight: 400;
+   font-size: 28px;
+
+}
+
+.box label {
+
+   font-size: 13px;
+   padding-left: 2px; 
+   padding-right: 2px;
+   font-weight: 700;
+
+}
+
+.box input {
+
+  width: 272px;
+  height: 25px;
+  padding: 3px 7px;
+  margin-top: 3px;
+  background-color: white; 
+  border: 1px tan;
+   border-radius: 3px;
+
+}
+
+.box button {
+
+   width: 288px;
+   height: 31px;
+   padding: 3px 7px;
+   margin-top: 3px;
+   background-color: #f0c148; 
+   border: 1px tan;
+   border-top-color: #949494;
+   background-image: linear-gradient(#f7da90, orange);
+   border-radius: 3px;
+
+}
+
+.box p, .box p a{
+
+   font-size: 12px;
+   line-height: 1.5;
+
+}
+
+a{
+
+text-decoration: blue;
+
+}
+
+.card a{
+
+   margin-top: 10px;
+   font-size: 13px;
+
+}
+
+.icon::before{
+
+   display: inline-block;
+   content: ""
+   border-top: 4px solid transparent;
+   border-left: 4px solid #949494;
+   border-bottum: 4px solid transparent;
+
+}
+
+.breck {
+
+   font-size: 12px;
+   color: #767676;
+   font-weight: 4000;
+   position: relative;
+   display: inline-block;
+   background-color: white;
+   padding: 8 8px 0 7px; 
+
+}
+
+.breck::before, 
